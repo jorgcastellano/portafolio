@@ -169,13 +169,15 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+                color: black;
             }
             hr {
                 margin: 30px auto;
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
+                //color: rgba(white, .7);
+                color: black;
                 font-size: 16px;
                 margin-bottom: 50px;
             }
