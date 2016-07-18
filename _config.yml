@@ -1,12 +1,12 @@
 # Site settings
 lang: "es"
 author: "Jorge Castellano"
-title: "<%= Jorge Castellano %>"
+title: "&lt;%= Jorge Castellano %>"
 email: "jorgecm14@gmail.com"
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.jcm.co.ve" # the base hostname & protocol for your site
-keywords: "jorgcastellano, jorge, castellano, jcm"
+keywords: "jorgcastellano, jcm, jorge, castellano"
 
 twitter_username: "jorgcastellano"
 github_username: "jorgcastellano"
