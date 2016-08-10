@@ -11,6 +11,8 @@ keywords: "jorgcastellano, jcm, jorge, castellano"
 twitter_username: "jorgcastellano"
 github_username: "jorgcastellano"
 
+me-img: "/img/me-img.png"
+
 # Build settings
 markdown: kramdown
 exclude: ['README.md']

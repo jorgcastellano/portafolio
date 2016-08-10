@@ -66,6 +66,18 @@ aside {
 .no-padding {
     padding: 0;
 }
+.img-me {
+    z-index: 100;
+    left: 0;
+    width: 220px;
+    height: 220px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #f1f1f1;
+}
 
 // Navigation
 
@@ -112,7 +124,7 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: black;
+            color: rgba(white, .7);
             &:hover,
             &:focus {
                 color: white;
@@ -155,7 +167,6 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -169,15 +180,13 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
-                color: black;
             }
             hr {
                 margin: 30px auto;
             }
             p {
                 font-weight: 300;
-                //color: rgba(white, .7);
-                color: black;
+                color: rgba(white, 1);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -204,6 +213,22 @@ header {
                 }
             }
         }
+    }
+    @media (max-width: 350px) {
+        .img-me {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+@media (max-width: 1280px) {
+    header {        
+        background-image: url('../img/header0.jpg'); 
+    }
+}
+@media (min-width: 1281px) {
+    header {
+        background-image: url('../img/header.jpg');
     }
 }
 
